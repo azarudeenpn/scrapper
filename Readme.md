@@ -26,3 +26,4 @@ docker compose up airflow-init
 ```bash
 docker compose up
 ```
+* Goto http://localhost:8080 in your browser to manage and view the dag (get_category_shoes) scheduler.

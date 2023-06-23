@@ -13,7 +13,7 @@ default_args = {
 
 scraper = ZapposScraper()
 
-with DAG('get_category_men',
+with DAG('get_category_shoes',
          default_args=default_args,
          schedule_interval='0 0 * * *',  # to run once daily
          ) as dag:

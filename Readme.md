@@ -15,7 +15,7 @@ curl -LfO 'https://airflow.apache.org/docs/apache-airflow/2.6.2/docker-compose.y
 ```
 * create support directories in project folder if not exist
 ```bash
-mkdir -p ./dags ./logs ./plugins ./config
+mkdir -p ./logs ./plugins ./config
 echo -e "AIRFLOW_UID=$(id -u)" > .env
 ```
 * initialize Airflow database

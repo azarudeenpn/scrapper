@@ -9,7 +9,7 @@
 * Install [Docker Compose](https://docs.docker.com/compose/install/) v1.29.1 or newer on your workstation.
 
 ## Setup Apache-Airflow in docker
-* Get docker-compose.yaml
+* Get docker-compose.yaml if not already exists.
 ```bash
 curl -LfO 'https://airflow.apache.org/docs/apache-airflow/2.6.2/docker-compose.yaml'
 ```
